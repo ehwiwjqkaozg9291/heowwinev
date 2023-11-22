@@ -1,0 +1,32 @@
+proxies:
+  - name: ID Biznet TJ
+    server: id-biznet1.bypass.id
+    port: 443
+    type: trojan
+    password: c566f610-7082-11ee-8b14-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+  - name: ID UNINET TJ
+    server: 13.lowh.net
+    port: 443
+    type: trojan
+    password: 7d6d9360-6f31-11ee-8752-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: ID SANGGORO TJ
+    server: 4.lowh.net
+    port: 443
+    type: trojan
+    password: 0b123190-71ad-11ee-85ee-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: ID HERZA TJ
+    server: 1.lowh.net
+    port: 443
+    type: trojan
+    password: 826abea0-71ac-11ee-bedd-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
