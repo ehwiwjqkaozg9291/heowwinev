@@ -1,0 +1,33 @@
+proxies:
+  - name: SG PATH TJ
+    server: sg.xmbb.net
+    port: 443
+    type: trojan
+    password: dac753f0-7082-11ee-a4a4-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SGGS TJ
+    server: 1.htmlcdn.net
+    port: 443
+    type: trojan
+    password: a9cd1100-71a7-11ee-82d3-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG HE TJ
+    server: sg-trojan.1server.co
+    port: 443
+    type: trojan
+    password: bfe2e810-6f0f-11ee-a3d9-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true
+  - name: SG Herza TJ
+    server: 11.lowh.net
+    port: 443
+    type: trojan
+    password: d26f1f30-71a7-11ee-b196-1577c1651679
+    skip-cert-verify: true
+    sni: shopee.co.id
+    udp: true

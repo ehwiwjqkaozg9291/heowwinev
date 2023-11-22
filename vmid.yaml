@@ -1,0 +1,49 @@
+proxies:
+  - name: ID UNINET
+    server: 12.lowh.net
+    port: 443
+    type: vmess
+    uuid: becbe020-71ac-11ee-9176-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: shopee.co.id
+    udp: true
+  - name: ID SANGGORO
+    server: 5.lowh.net
+    port: 443
+    type: vmess
+    uuid: fb11f920-71ac-11ee-9d29-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: shopee.co.id
+    udp: true
+  - name: ID HERZA
+    server: 2.lowh.net
+    port: 443
+    type: vmess
+    uuid: ab9a4ca0-71ac-11ee-9da0-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: shopee.co.id
+    network: ws
+    ws-opts:
+      path: /files
+      headers:
+        Host: shopee.co.id
+    udp: true
