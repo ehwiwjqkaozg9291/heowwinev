@@ -49,12 +49,12 @@ proxies:
     udp: true
   - name: SG GS
     server: beacon.liveon.id
-    port: 80
+    port: 8443
     type: vmess
-    uuid: 9083c6b0-8ff5-11ee-9f90-1577c1651679
+    uuid: 542fb2e0-8ff9-11ee-9bed-1577c1651679
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: 1.htmlcdn.net
     network: ws
