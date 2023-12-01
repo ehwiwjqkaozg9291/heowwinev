@@ -3,7 +3,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 3864dd70-7f0f-11ee-acb3-1577c1651679
+    uuid: b87f9f20-8ff5-11ee-843e-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -19,7 +19,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 27187760-7f0f-11ee-9661-1577c1651679
+    uuid: cebf09a0-8ff5-11ee-bf42-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -35,7 +35,7 @@ proxies:
     server: 1.htmlcdn.net
     port: 443
     type: trojan
-    password: a9cd1100-71a7-11ee-82d3-1577c1651679
+    password: bdc3c450-8ff4-11ee-93be-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
