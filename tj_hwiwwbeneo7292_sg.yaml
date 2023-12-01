@@ -3,7 +3,7 @@ proxies:
     server: sg.xmbb.net
     port: 443
     type: trojan
-    password: dac753f0-7082-11ee-a4a4-1577c1651679
+    password: 6695d230-8ff5-11ee-9a56-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -11,7 +11,7 @@ proxies:
     server: 1.htmlcdn.net
     port: 443
     type: trojan
-    password: a9cd1100-71a7-11ee-82d3-1577c1651679
+    password: bdc3c450-8ff4-11ee-93be-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -19,7 +19,7 @@ proxies:
     server: sg-trojan.1server.co
     port: 443
     type: trojan
-    password: bfe2e810-6f0f-11ee-a3d9-1577c1651679
+    password: 3f65f000-8ff5-11ee-a95c-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -27,7 +27,7 @@ proxies:
     server: 11.lowh.net
     port: 443
     type: trojan
-    password: d26f1f30-71a7-11ee-b196-1577c1651679
+    password: e8ce1470-8ff4-11ee-a945-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
