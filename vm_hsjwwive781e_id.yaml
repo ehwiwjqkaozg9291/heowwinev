@@ -3,7 +3,7 @@ proxies:
     server: 12.lowh.net
     port: 443
     type: vmess
-    uuid: becbe020-71ac-11ee-9176-1577c1651679
+    uuid: 16b76b50-8ff6-11ee-86b0-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
@@ -19,7 +19,7 @@ proxies:
     server: 5.lowh.net
     port: 443
     type: vmess
-    uuid: fb11f920-71ac-11ee-9d29-1577c1651679
+    uuid: b4742c00-8ff6-11ee-b815-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
@@ -35,7 +35,7 @@ proxies:
     server: 2.lowh.net
     port: 443
     type: vmess
-    uuid: ab9a4ca0-71ac-11ee-9da0-1577c1651679
+    uuid: 2e271d30-8ff6-11ee-b309-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
