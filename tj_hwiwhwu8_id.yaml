@@ -3,14 +3,14 @@ proxies:
     server: id-biznet1.bypass.id
     port: 443
     type: trojan
-    password: c566f610-7082-11ee-8b14-1577c1651679
+    password: 3c4af210-8ff7-11ee-9a90-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
   - name: ID UNINET TJ
     server: 13.lowh.net
     port: 443
     type: trojan
-    password: 7d6d9360-6f31-11ee-8752-1577c1651679
+    password: 11cf9930-8ff7-11ee-876d-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -18,7 +18,7 @@ proxies:
     server: 4.lowh.net
     port: 443
     type: trojan
-    password: 0b123190-71ad-11ee-85ee-1577c1651679
+    password: 295dc410-8ff7-11ee-9e8a-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
@@ -26,7 +26,7 @@ proxies:
     server: 1.lowh.net
     port: 443
     type: trojan
-    password: 826abea0-71ac-11ee-bedd-1577c1651679
+    password: fdfe8510-8ff6-11ee-83b8-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
