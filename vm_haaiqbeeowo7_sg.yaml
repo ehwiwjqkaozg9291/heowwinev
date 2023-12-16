@@ -1,6 +1,6 @@
 proxies:
   - name: SG HERZA
-    server: support.liveon.id
+    server: beacon.liveon.id
     port: 80
     type: vmess
     uuid: cebf09a0-8ff5-11ee-bf42-1577c1651679
@@ -16,7 +16,7 @@ proxies:
         Host: 11.lowh.net
     udp: true
   - name: SG HE
-    server: circles.asia
+    server: beacon.liveon.id
     port: 80
     type: vmess
     uuid: b87f9f20-8ff5-11ee-843e-1577c1651679
