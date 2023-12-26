@@ -64,22 +64,6 @@ proxies:
         Host: sg.htmlcdn.net
     udp: true
   - name: Path 443
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 537d5b60-a395-11ee-9f93-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg.htmlcdn.net
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: sg.htmlcdn.net
-    udp: true
-  - name: Path 4432
     server: sg.htmlcdn.net
     port: 443
     type: vmess
@@ -110,4 +94,15 @@ proxies:
       path: /files
       headers:
         Host: 1.htmlcdn.net
+    udp: true
+  - name: HE SSR
+    server: 103.253.24.197
+    port: 1189
+    type: ssr
+    cipher: AES-256-CTR
+    password: pre_viper_xyz867296
+    protocol: origin
+    obfs: tls1.2_ticket_auth
+    protocol-param: 
+    obfs-param: shopee.co.id
     udp: true
