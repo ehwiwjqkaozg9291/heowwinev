@@ -95,14 +95,3 @@ proxies:
       headers:
         Host: 1.htmlcdn.net
     udp: true
-  - name: HE SSR
-    server: 103.253.24.197
-    port: 1189
-    type: ssr
-    cipher: AES-256-CTR
-    password: pre_viper_xyz867296
-    protocol: origin
-    obfs: tls1.2_ticket_auth
-    protocol-param: 
-    obfs-param: shopee.co.id
-    udp: true
