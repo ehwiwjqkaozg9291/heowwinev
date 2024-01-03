@@ -1,49 +1,64 @@
 proxies:
-  - name: ID UNINET
-    server: 12.lowh.net
+  - name: Sanggoro 443
+    server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 16b76b50-8ff6-11ee-86b0-1577c1651679
+    uuid: fc47be60-aa37-11ee-b5ca-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: 5.lowh.net
     network: ws
     ws-opts:
-      path: /files
+      path: /hello
       headers:
-        Host: shopee.co.id
+        Host: 5.lowh.net
     udp: true
-  - name: ID SANGGORO
-    server: 5.lowh.net
+  - name: Sanggoro 80
+    server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: b4742c00-8ff6-11ee-b815-1577c1651679
+    uuid: 09e70a90-aa38-11ee-b069-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 5.lowh.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 5.lowh.net
+  - name: Herza 443
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 147929f0-aa38-11ee-b079-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: 2.lowh.net
     network: ws
     ws-opts:
-      path: /files
+      path: /worryfree
       headers:
-        Host: shopee.co.id
+        Host: 2.lowh.net
     udp: true
-  - name: ID HERZA
-    server: 2.lowh.net
+  - name: Herza 80
+    server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 2e271d30-8ff6-11ee-b309-1577c1651679
+    uuid: 1ac31a30-aa38-11ee-b630-1577c1651679
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: shopee.co.id
+    servername: 2.lowh.net
     network: ws
     ws-opts:
-      path: /files
+      path: /worryfree
       headers:
-        Host: shopee.co.id
+        Host: 2.lowh.net
     udp: true
