@@ -127,19 +127,3 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: SG GS
-    server: beacon.liveon.id
-    port: 8443
-    type: vmess
-    uuid: 542fb2e0-8ff9-11ee-9bed-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 1.htmlcdn.net
-    network: ws
-    ws-opts:
-      path: /files
-      headers:
-        Host: 1.htmlcdn.net
-    udp: true
