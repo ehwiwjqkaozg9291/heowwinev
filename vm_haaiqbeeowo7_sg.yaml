@@ -11,7 +11,7 @@ proxies:
     servername: 11.lowh.net
     network: ws
     ws-opts:
-      path: /files
+      path: /worryfree
       headers:
         Host: 11.lowh.net
     udp: true
