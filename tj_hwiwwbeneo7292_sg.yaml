@@ -1,33 +1,35 @@
 proxies:
-  - name: SG PATH TJ
-    server: sg.xmbb.net
+  - name: SG Path 443
+    server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 6695d230-8ff5-11ee-9a56-1577c1651679
+    password: 2fa76740-aa02-11ee-b40b-1577c1651679
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: sg.xmbb.net
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: sg.xmbb.net
     udp: true
-  - name: SGGS TJ
-    server: 1.htmlcdn.net
+  - name: SG Path 80
+    server: beacon.liveon.id
     port: 443
     type: trojan
-    password: bdc3c450-8ff4-11ee-93be-1577c1651679
+    password: 71160a80-aa02-11ee-9d4f-1577c1651679
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: sg.xmbb.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: sg.xmbb.net
     udp: true
   - name: SG HE TJ
     server: sg-trojan.1server.co
     port: 443
     type: trojan
     password: 3f65f000-8ff5-11ee-a95c-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
-  - name: SG Herza TJ
-    server: 11.lowh.net
-    port: 443
-    type: trojan
-    password: e8ce1470-8ff4-11ee-a945-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     udp: true
