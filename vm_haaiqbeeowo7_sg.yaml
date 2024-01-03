@@ -15,38 +15,6 @@ proxies:
       headers:
         Host: 11.lowh.net
     udp: true
-  - name: HE 443
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 6dac7ef0-aa03-11ee-a73c-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 10.lowh.net
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: 10.lowh.net
-    udp: true
-  - name: HE 80
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 81f1d540-aa39-11ee-847b-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 10.lowh.net
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: 10.lowh.net
-    udp: true
   - name: SGGS 443
     server: beacon.liveon.id
     port: 443
@@ -110,4 +78,36 @@ proxies:
       path: /hello
       headers:
         Host: shopee.co.id
+    udp: true
+  - name: HE 443
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 6dac7ef0-aa03-11ee-a73c-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 10.lowh.net
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: 10.lowh.net
+    udp: true
+  - name: HE 80
+    server: beacon.liveon.id
+    port: 443
+    type: vmess
+    uuid: 81f1d540-aa39-11ee-847b-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 10.lowh.net
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 10.lowh.net
     udp: true
