@@ -6,14 +6,6 @@ proxies:
     password: 3c4af210-8ff7-11ee-9a90-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
-  - name: ID UNINET TJ
-    server: 13.lowh.net
-    port: 443
-    type: trojan
-    password: 11cf9930-8ff7-11ee-876d-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    udp: true
   - name: ID SANGGORO TJ
     server: 4.lowh.net
     port: 443
