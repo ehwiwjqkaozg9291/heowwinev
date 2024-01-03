@@ -43,7 +43,7 @@ proxies:
     servername: 10.lowh.net
     network: ws
     ws-opts:
-      path: /hello
+      path: /worryfree
       headers:
         Host: 10.lowh.net
     udp: true
