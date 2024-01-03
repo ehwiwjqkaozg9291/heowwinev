@@ -16,7 +16,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 71160a80-aa02-11ee-9d4f-1577c1651679
+    password: dba49ff0-aa37-11ee-b216-1577c1651679
     skip-cert-verify: true
     sni: sg.xmbb.net
     network: ws
