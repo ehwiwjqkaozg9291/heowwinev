@@ -3,7 +3,7 @@ proxies:
     server: biznet1.1server.co
     port: 443
     type: trojan
-    password: 5538e1f0-ab00-11ee-9125-1577c1651679
+    password: 5bbe2d90-ab02-11ee-ac4f-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -16,7 +16,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: ddcc4680-ab00-11ee-ae3d-1577c1651679
+    password: 5bbe2d90-ab02-11ee-ac4f-1577c1651679
     skip-cert-verify: true
     sni: biznet1.1server.co
     network: ws
@@ -29,7 +29,7 @@ proxies:
     server: biznet1.1server.co
     port: 443
     type: trojan
-    password: 196c9960-ab01-11ee-adbf-1577c1651679
+    password: 65537530-ab02-11ee-b4eb-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -42,7 +42,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: trojan
-    password: 196c9960-ab01-11ee-adbf-1577c1651679
+    password: 65537530-ab02-11ee-b4eb-1577c1651679
     skip-cert-verify: true
     sni: biznet1.1server.co
     network: ws
@@ -55,7 +55,7 @@ proxies:
     server: 4.lowh.net
     port: 443
     type: trojan
-    password: 5538e1f0-ab00-11ee-9125-1577c1651679
+    password: 28a19cc0-ab02-11ee-a3a2-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -68,7 +68,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: c80a3db0-aaff-11ee-8330-1577c1651679
+    password: 28a19cc0-ab02-11ee-a3a2-1577c1651679
     skip-cert-verify: true
     sni: 4.lowh.net
     network: ws
