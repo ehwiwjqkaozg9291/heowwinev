@@ -27,7 +27,7 @@ proxies:
     udp: true
   - name: SG Path SNI 80
     server: sg.xmbb.net
-    port: 443
+    port: 80
     type: trojan
     password: 6d423e20-aaff-11ee-a465-1577c1651679
     skip-cert-verify: true
@@ -40,7 +40,7 @@ proxies:
     udp: true
   - name: SG Path 80
     server: beacon.liveon.id
-    port: 443
+    port: 80
     type: trojan
     password: 6d423e20-aaff-11ee-a465-1577c1651679
     skip-cert-verify: true
