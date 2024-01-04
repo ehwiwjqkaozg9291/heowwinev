@@ -55,7 +55,7 @@ proxies:
     server: 11.lowh.net
     port: 443
     type: trojan
-    password: a4c1bf10-aaff-11ee-8bde-1577c1651679
+    password: 4eb22f50-ab01-11ee-9828-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -68,7 +68,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: a4c1bf10-aaff-11ee-8bde-1577c1651679
+    password: 4eb22f50-ab01-11ee-9828-1577c1651679
     skip-cert-verify: true
     sni: 11.lowh.net
     network: ws
