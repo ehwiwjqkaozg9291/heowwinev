@@ -3,7 +3,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: fc47be60-aa37-11ee-b5ca-1577c1651679
+    uuid: 770c7560-ab02-11ee-a13e-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
@@ -17,9 +17,9 @@ proxies:
     udp: true
   - name: Sanggoro 80
     server: beacon.liveon.id
-    port: 443
+    port: 80
     type: vmess
-    uuid: 09e70a90-aa38-11ee-b069-1577c1651679
+    uuid: 7e7224b0-ab02-11ee-a099-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -34,7 +34,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 147929f0-aa38-11ee-b079-1577c1651679
+    uuid: 93a8ae60-ab02-11ee-9948-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
@@ -42,7 +42,7 @@ proxies:
     servername: 2.lowh.net
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /hello
       headers:
         Host: 2.lowh.net
     udp: true
@@ -50,7 +50,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 1ac31a30-aa38-11ee-b630-1577c1651679
+    uuid: a1ed7670-ab02-11ee-a05e-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
