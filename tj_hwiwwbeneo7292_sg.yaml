@@ -3,7 +3,7 @@ proxies:
     server: sg.xmbb.net
     port: 443
     type: trojan
-    password: 1a599600-aaff-11ee-a4de-1577c1651679
+    password: d6570910-ab03-11ee-9ea4-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -16,7 +16,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 1a599600-aaff-11ee-a4de-1577c1651679
+    password: d6570910-ab03-11ee-9ea4-1577c1651679
     skip-cert-verify: true
     sni: sg.xmbb.net
     network: ws
@@ -29,7 +29,7 @@ proxies:
     server: sg.xmbb.net
     port: 80
     type: trojan
-    password: 6d423e20-aaff-11ee-a465-1577c1651679
+    password: e458f3d0-ab03-11ee-b254-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -42,7 +42,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: trojan
-    password: 6d423e20-aaff-11ee-a465-1577c1651679
+    password: e458f3d0-ab03-11ee-b254-1577c1651679
     skip-cert-verify: true
     sni: sg.xmbb.net
     network: ws
@@ -107,7 +107,7 @@ proxies:
     server: sg-trojan.1server.co
     port: 80
     type: trojan
-    password: d63417b0-aafd-11ee-8b23-1577c1651679
+    password: 04109cd0-ab04-11ee-99ff-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -120,7 +120,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: trojan
-    password: d63417b0-aafd-11ee-8b23-1577c1651679
+    password: 04109cd0-ab04-11ee-99ff-1577c1651679
     skip-cert-verify: true
     sni: sg-trojan.1server.co
     network: ws
