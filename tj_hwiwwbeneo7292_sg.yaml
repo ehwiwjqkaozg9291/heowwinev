@@ -3,7 +3,7 @@ proxies:
     server: sg.xmbb.net
     port: 443
     type: trojan
-    password: d6570910-ab03-11ee-9ea4-1577c1651679
+    password: 27e16780-ac88-11ee-bf8e-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -16,38 +16,12 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: d6570910-ab03-11ee-9ea4-1577c1651679
+    password: 27e16780-ac88-11ee-bf8e-1577c1651679
     skip-cert-verify: true
     sni: sg.xmbb.net
     network: ws
     ws-opts:
       path: /welcome
-      headers:
-        Host: sg.xmbb.net
-    udp: true
-  - name: SG Path SNI 80
-    server: sg.xmbb.net
-    port: 80
-    type: trojan
-    password: e458f3d0-ab03-11ee-b254-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: SG Path 80
-    server: beacon.liveon.id
-    port: 80
-    type: trojan
-    password: e458f3d0-ab03-11ee-b254-1577c1651679
-    skip-cert-verify: true
-    sni: sg.xmbb.net
-    network: ws
-    ws-opts:
-      path: /worryfree
       headers:
         Host: sg.xmbb.net
     udp: true
@@ -100,32 +74,6 @@ proxies:
     network: ws
     ws-opts:
       path: /welcome
-      headers:
-        Host: sg-trojan.1server.co
-    udp: true
-  - name: SG HE SNI 80
-    server: sg-trojan.1server.co
-    port: 80
-    type: trojan
-    password: 04109cd0-ab04-11ee-99ff-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: SG HE 80
-    server: beacon.liveon.id
-    port: 80
-    type: trojan
-    password: 04109cd0-ab04-11ee-99ff-1577c1651679
-    skip-cert-verify: true
-    sni: sg-trojan.1server.co
-    network: ws
-    ws-opts:
-      path: /worryfree
       headers:
         Host: sg-trojan.1server.co
     udp: true
