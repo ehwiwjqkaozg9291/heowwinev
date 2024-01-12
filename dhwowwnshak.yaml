@@ -1,45 +1,45 @@
 proxies:
-  - name: IDE VM
+  - name: IDI VM
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: cf949a7b-2fb7-4542-877c-580d74d7dbb8
+    uuid: 3f0110f9-5414-4af0-8249-dd24b7de2ae0
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id1.merkuri.cloud
+    servername: id12.merkuri.cloud
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id1.merkuri.cloud
+        Host: id12.merkuri.cloud
     udp: true
-  - name: IDE VL
+  - name: IDI VL
     server: beacon.liveon.id
     port: 80
     type: vless
-    uuid: cf949a7b-2fb7-4542-877c-580d74d7dbb8
+    uuid: 3f0110f9-5414-4af0-8249-dd24b7de2ae0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: id1.merkuri.cloud
+    servername: id12.merkuri.cloud
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: id1.merkuri.cloud
+        Host: id12.merkuri.cloud
     udp: true
-  - name: IDE TJ
+  - name: IDI TJ
     server: beacon.liveon.id
     port: 443
     type: trojan
-    password: 25f2eb9d
+    password: 49150f94
     skip-cert-verify: true
-    sni: id1.merkuri.cloud
+    sni: id12.merkuri.cloud
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id1.merkuri.cloud
+        Host: id12.merkuri.cloud
     udp: true
