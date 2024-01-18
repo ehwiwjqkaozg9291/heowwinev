@@ -51,29 +51,3 @@ proxies:
       headers:
         Host: 4.lowh.net
     udp: true
-  - name: ID Herza SNI 443
-    server: 1.lowh.net
-    port: 80
-    type: trojan
-    password: 00f700c0-ac88-11ee-ab1a-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: ID Herza 443
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 00f700c0-ac88-11ee-ab1a-1577c1651679
-    skip-cert-verify: true
-    sni: 1.lowh.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: 1.lowh.net
-    udp: true
