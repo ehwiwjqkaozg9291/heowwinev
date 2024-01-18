@@ -3,7 +3,7 @@ proxies:
     server: beacon.liveon.id
     port: 443
     type: vmess
-    uuid: 8c638d20-ab03-11ee-a803-1577c1651679
+    uuid: 32c91600-b5ad-11ee-90ae-1577c1651679
     alterId: 0
     cipher: auto
     tls: true
@@ -19,7 +19,7 @@ proxies:
     server: beacon.liveon.id
     port: 80
     type: vmess
-    uuid: 936ffee0-ab03-11ee-bb9b-1577c1651679
+    uuid: 47794f20-b5ad-11ee-a3df-1577c1651679
     alterId: 0
     cipher: auto
     tls: false
@@ -30,33 +30,6 @@ proxies:
       path: /worryfree
       headers:
         Host: 5.lowh.net
-  - name: Herza 443
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 6a8eb170-ac88-11ee-b306-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 2.lowh.net
-    network: ws
-    ws-opts:
-      path: /hello
-      headers:
-        Host: 2.lowh.net
-    udp: true
-  - name: Herza 80
-    server: beacon.liveon.id
-    port: 443
-    type: vmess
-    uuid: 8fb7e440-ac88-11ee-89d7-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: 2.lowh.net
-    network: ws
     ws-opts:
       path: /worryfree
       headers:
