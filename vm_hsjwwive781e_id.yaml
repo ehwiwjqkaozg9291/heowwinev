@@ -35,7 +35,7 @@ proxies:
       headers:
         Host: 5.lowh.net
     udp: true
-  - name: Sanggoro 80
+  - name: Memek 80
     server: beacon.liveon.id
     port: 80
     type: vmess
