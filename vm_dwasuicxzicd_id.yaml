@@ -14,10 +14,6 @@ proxies:
       path: /worryfree
       headers:
         Host: 5.lowh.net
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: 2.lowh.net
     udp: true
   - name: Sanggoro 443
     server: beacon.liveon.id
@@ -35,7 +31,7 @@ proxies:
       headers:
         Host: 5.lowh.net
     udp: true
-  - name: Memek 80
+  - name: Memekz 80
     server: beacon.liveon.id
     port: 80
     type: vmess
