@@ -46,8 +46,4 @@ proxies:
       path: /worryfree
       headers:
         Host: 5.lowh.net
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: 2.lowh.net
     udp: true
