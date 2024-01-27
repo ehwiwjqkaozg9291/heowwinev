@@ -31,7 +31,6 @@ proxies:
       headers:
         Host: cbtp.xmbb.net
     udp: true
-
   - name: Sanggoro 80
     server: beacon.liveon.id
     port: 80
