@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: android-context-data.googleapis.com
     udp: true
-  - name: SG HERZA TJ
+  - name: SG Herza TJ
     server: 11.lowh.net
     port: 443
     type: trojan
