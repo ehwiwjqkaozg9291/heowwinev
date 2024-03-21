@@ -1,1 +1,9 @@
 proxies:
+  - name: BLANK
+    server: BLANK.XXX
+    port: 443
+    type: trojan
+    password: BLANK
+    skip-cert-verify: true
+    sni: BLANK
+    udp: true
