@@ -5,12 +5,12 @@ proxies:
     type: trojan
     password: e59c0960-e7c8-11ee-b6d0-1577c1651679
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: shopee.co.id
+        Host: android-context-data.googleapis.com
     udp: true
   - name: SG HERZA TJ
     server: 11.lowh.net
@@ -26,19 +26,6 @@ proxies:
         Host: shopee.co.id
     udp: true
   - name: SG HE TJ
-    server: sg-trojan.1server.co
-    port: 443
-    type: trojan
-    password: 6655abf0-e7c9-11ee-8244-1577c1651679
-    skip-cert-verify: true
-    sni: shopee.co.id
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: shopee.co.id
-    udp: true
-  - name: SG HE 443 android
     server: sg-trojan.1server.co
     port: 443
     type: trojan
