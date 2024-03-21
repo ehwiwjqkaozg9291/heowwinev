@@ -1,9 +1,9 @@
 proxies:
-  - name: ID Biznet SNI 443
+  - name: ID Biznet TJ
     server: biznet1.1server.co
     port: 443
     type: trojan
-    password: 5bbe2d90-ab02-11ee-ac4f-1577c1651679
+    password: ecaff390-e7c9-11ee-8bfd-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -12,24 +12,24 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: ID Biznet 443
-    server: beacon.liveon.id
+  - name: ID Herza TJ
+    server: 002.htmlcdn.net
     port: 443
     type: trojan
-    password: 5bbe2d90-ab02-11ee-ac4f-1577c1651679
+    password: 19374e60-e7ca-11ee-92e4-1577c1651679
     skip-cert-verify: true
-    sni: biznet1.1server.co
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: biznet1.1server.co
+        Host: android-context-data.googleapis.com
     udp: true
-  - name: ID Sanggoro SNI 443
+  - name: ID Sanggoro TJ
     server: 4.lowh.net
     port: 443
     type: trojan
-    password: 28a19cc0-ab02-11ee-a3a2-1577c1651679
+    password: fba6af10-e7c9-11ee-86df-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -37,17 +37,4 @@ proxies:
       path: /welcome
       headers:
         Host: shopee.co.id
-    udp: true
-  - name: ID Sanggoro 443
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 28a19cc0-ab02-11ee-a3a2-1577c1651679
-    skip-cert-verify: true
-    sni: 4.lowh.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: 4.lowh.net
     udp: true
