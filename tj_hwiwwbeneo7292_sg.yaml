@@ -1,9 +1,9 @@
 proxies:
-  - name: SG Path SNI 443
+  - name: SG Path TJ
     server: sg.xmbb.net
     port: 443
     type: trojan
-    password: 27e16780-ac88-11ee-bf8e-1577c1651679
+    password: e59c0960-e7c8-11ee-b6d0-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -12,24 +12,11 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: SG Path 443
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: 27e16780-ac88-11ee-bf8e-1577c1651679
-    skip-cert-verify: true
-    sni: sg.xmbb.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: sg.xmbb.net
-    udp: true
-  - name: SG HERZA SNI 443
+  - name: SG HERZA TJ
     server: 11.lowh.net
     port: 443
     type: trojan
-    password: cf2c9090-ab02-11ee-81d5-1577c1651679
+    password: 0fb89b30-e7c9-11ee-a990-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -38,20 +25,7 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: SG HERZA 443
-    server: beacon.liveon.id
-    port: 443
-    type: trojan
-    password: cf2c9090-ab02-11ee-81d5-1577c1651679
-    skip-cert-verify: true
-    sni: 11.lowh.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: 11.lowh.net
-    udp: true
-  - name: SG HE SNI 443
+  - name: SG HE TJ
     server: sg-trojan.1server.co
     port: 443
     type: trojan
@@ -64,16 +38,16 @@ proxies:
       headers:
         Host: shopee.co.id
     udp: true
-  - name: SG HE 443
-    server: beacon.liveon.id
+  - name: SG HE 443 android
+    server: sg-trojan.1server.co
     port: 443
     type: trojan
     password: 83953b70-aafe-11ee-a82b-1577c1651679
     skip-cert-verify: true
-    sni: sg-trojan.1server.co
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: sg-trojan.1server.co
+        Host: android-context-data.googleapis.com
     udp: true
