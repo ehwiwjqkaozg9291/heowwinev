@@ -29,7 +29,7 @@ proxies:
     server: sg-trojan.1server.co
     port: 443
     type: trojan
-    password: 83953b70-aafe-11ee-a82b-1577c1651679
+    password: 6655abf0-e7c9-11ee-8244-1577c1651679
     skip-cert-verify: true
     sni: shopee.co.id
     network: ws
@@ -42,7 +42,7 @@ proxies:
     server: sg-trojan.1server.co
     port: 443
     type: trojan
-    password: 83953b70-aafe-11ee-a82b-1577c1651679
+    password: 6655abf0-e7c9-11ee-8244-1577c1651679
     skip-cert-verify: true
     sni: android-context-data.googleapis.com
     network: ws
