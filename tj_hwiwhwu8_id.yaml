@@ -1,16 +1,16 @@
 proxies:
-  - name: ID Biznet TJ
+  - name: ID BIZNET TJ
     server: biznet1.1server.co
     port: 443
     type: trojan
     password: ecaff390-e7c9-11ee-8bfd-1577c1651679
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: shopee.co.id
+        Host: android-context-data.googleapis.com
     udp: true
   - name: ID Herza TJ
     server: 002.htmlcdn.net
@@ -31,10 +31,10 @@ proxies:
     type: trojan
     password: fba6af10-e7c9-11ee-86df-1577c1651679
     skip-cert-verify: true
-    sni: shopee.co.id
+    sni: android-context-data.googleapis.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: shopee.co.id
+        Host: android-context-data.googleapis.com
     udp: true
